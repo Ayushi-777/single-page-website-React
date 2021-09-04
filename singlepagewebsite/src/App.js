@@ -1,10 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Header from './Header';
+import HowtoWork from './HowtoWork';
 function App() {
   return (
-    <div >
-    <h1>hello world</h1>
-     
-    </div>
+    < >
+    <Navbar />
+     <Header />
+     <HowtoWork/>
+    </>
   );
 }
 

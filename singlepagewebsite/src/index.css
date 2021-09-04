@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+:root{
+    --bgcolor:rgb(243, 212, 243);
+    --primary--color:rgb(167, 20, 167);
+    --text-color:#828286;
+    --main-text-color:#333333;
+}
+html{
+    font-size: 62%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#333333;
+}
+
+.navar-bg{
+    background-color: var(--bgcolor);
+    padding: 1rem 0;
+    z-index: 99;
+    position: relative;
+  
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.navbar li{
+    padding: 0 2rem;
+}
+.navbar li a{
+    font-size: 1.7rem;
+    font-weight: lighter;
+    position: relative;
+}
+
+.navbar li a:hover{
+    color:var(--primary--color) !important;
+    text-shadow: 0 0 2.0rem 0.3rem purple;
+}
+.btn-style{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    /* background-color:transparent; */
+    background-color:var(--primary--color);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    color: white;
+}
+.btn-style:first-child{
+    margin-right: 2rem;
+}
+.btn-style:hover{
+    border: 0.1rem solid var(--primary--color);
+    background-color:transparent;
+    color:var(--primary--color);
+    box-shadow: 0 0.2rem 0.5rem rgb(187, 27, 187);
+}
+.btn-style-border{
+    border: 0.1rem solid var(--primary--color);
+    background-color:transparent;
+    color:var(--primary--color);
+    box-shadow: 0 0.2rem 0.5rem rgb(187, 27, 187);
+}
+.btn-style-border:hover{
+    background-color:var(--primary--color);
+    text-transform: capitalize;
+    color: white;
+}
+@media (min-width:1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1400px;
+    }
+
+}
+
+/*-------------------------Hero Section---------------------*/
+.header{
+    background-color:var(--bgcolor);
+}
+.main-hero-container{
+    height: 80vh;
+    display: flex;
+}
+.main-hero-container h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.main-hero-container h3{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.main-hero-para{
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color:rgb(150, 16, 150);
+}
+.input-group{
+    position: relative !important;
+}
+
+.form-control-text{
+    outline-style: none;
+    padding-left: 1.5rem !important;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    width: fit-content;
+    border:none;
+    position: absolute;
+    height: 4rem;
+    background-color:rgb(247, 189, 229);
+
+}
+.input-group-button{
+    position: absolute;
+    right:51%;
+    background-color:var(--primary--color);
+    top:0.5rem;
+    height: 3rem;
+    width: 15%;
+    border-radius:2rem !important;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color:var(--bgcolor);
+    display: flex;
+    align-items: center;
+}
+/*---------------------*/
+
+.work-container{
+    
+}
